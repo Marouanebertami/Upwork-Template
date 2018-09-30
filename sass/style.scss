@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+.up-content{
+	padding: 0 !important;
+}
+
+.navbar-brand{
+	width: 100px;
+	img{
+		width: 100%;
+	}
+}
+
+nav{
+	font-family: 'K2D', sans-serif;
+	.border{
+		border-bottom: 1px solid #ddd;
+	}*
+	.marj{
+		text-transform: uppercase;
+	}
+	.nav-button{
+		a{
+			background-color: #37a000;
+		    color: #fff !important;
+		    padding: 0 .5rem;
+		    margin: 8px;
+		}
+	}
+
+	.navbar-subnav{
+		.nav-link{
+			padding-left: 15px;
+		    padding-right: 15px;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		    margin: 8px;
+		}
+	}
+
+	.dropdown-nav{
+			position: absolute;
+		    top: 100%;
+		    left: 0;
+		    height: 40px;
+		    width: 100%;
+		    a.nav-link{
+		    	overflow: hidden;
+    			display: none;
+		    }
+		.dropdown-show{
+			top: 0;
+		    display: flex !important;
+			border: none;
+		    border-bottom: 1px solid #dddcdc;
+		    border-radius: 0;
+		    width: 100%;
+		    padding-left: 240px;
+		    padding-right: 240px;
+		    background-color: #f9f9f9;
+		    margin-top: 1px;
+		    font-size: 14px;
+		}
+	}
+}
+
+.search-input{
+	border-radius: 0;
+}
+
+.background{
+	background-image: url(../img/oded-desktop.jpg);
+	height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
